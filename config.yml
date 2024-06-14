@@ -1,0 +1,9 @@
+commandLine: tasklist
+commandArguments:
+- arg: /fi
+- arg: USERNAME ne NT AUTHORITY\SYSTEM
+- arg: /fi
+- arg: STATUS eq running
+commandResultWaitTimeSeconds: 0
+commandResultHasHeaderLine: true
+dataRecordsStartLine: 3
